@@ -18,8 +18,8 @@
             "dest": "/public/build/assets/$1"
         },
         {
-            "src": "/favicon.ico",
-            "dest": "/public/favicon.ico"
+            "src": "/favicon.png",
+            "dest": "/public/favicon.png"
         },
         {
             "src": "/robots.txt",
