@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="/">
-                        <img src="{{ asset('images/Job star.png') }}" alt="Job Star" class="h-24 w-25 rounded">
+                        <img src="{{ asset('images/Jobstar.png') }}" alt="Job Star" class="h-24 w-25 rounded">
                     </a>
                 </div>
 
