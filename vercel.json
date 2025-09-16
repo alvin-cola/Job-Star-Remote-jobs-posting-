@@ -2,6 +2,14 @@
     "regions": [
         "hnd1"
     ],
+
+    "rewrites": [
+        {
+            "source": "/storage/(.*)",
+            "destination": "/storage/app/public/$1"
+        }
+    ],
+
     "builds": [
         {
             "src": "/api/index.php",
