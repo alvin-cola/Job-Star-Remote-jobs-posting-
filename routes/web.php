@@ -17,8 +17,11 @@ Route::get('test', function () {
 
 Route::get('/', function () {
     $jobs = Job::latest()->get()->groupBy('Featured');
-    return view('index',
-        ['jobs' => $jobs->get(0,collect()),'FeaturedJobs'=>$jobs->get(1,collect()),'tags'=> Tag::all()]);
+    return view('index', [
+        'jobs' => $jobs->get(0, collect()),
+        'FeaturedJobs' => $jobs->get(1, collect()),
+        'tags' => Tag::all()
+    ]);
 })->name('/');
 Route::get('/contact', function () {
     return view('contact');
