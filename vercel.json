@@ -2,14 +2,16 @@
     "regions": [
         "hnd1"
     ],
-
     "rewrites": [
         {
             "source": "/storage/(.*)",
             "destination": "/storage/app/public/$1"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/api/index.php"
         }
     ],
-
     "builds": [
         {
             "src": "/api/index.php",
@@ -18,24 +20,6 @@
         {
             "src": "/public/**",
             "use": "@vercel/static"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/build/assets/(.*)",
-            "dest": "/public/build/assets/$1"
-        },
-        {
-            "src": "/favicon.png",
-            "dest": "/public/favicon.png"
-        },
-        {
-            "src": "/robots.txt",
-            "dest": "/public/robots.txt"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
         }
     ],
     "env": {
