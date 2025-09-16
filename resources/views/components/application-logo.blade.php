@@ -1,3 +1,3 @@
 <svg viewBox="0 0 316 316" xmlns="http://www.w3.org/2000/svg" {{ $attributes }}>
-    <img src="{{ asset('images/Jobstar.png') }}" alt="Job Star">
+    <img src="{{ asset('images/Job-star.png') }}" alt="Job Star">
 </svg>

@@ -20,7 +20,7 @@
             <div>
 
                 <a href="/">
-                    <img src="{{ asset('images/Jobstar.png') }}" alt="Job Star" class="h-24 w-25 rounded">
+                    <img src="{{ asset('images/Job-star.png') }}" alt="Job Star" class="h-24 w-25 rounded">
                 </a>
                 <h1 class=" mt-2 text-purple-900" ><strong>Job Star</strong></h1>
 

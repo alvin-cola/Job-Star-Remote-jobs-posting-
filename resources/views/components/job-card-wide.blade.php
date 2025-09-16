@@ -1,7 +1,7 @@
 @props(['job',])
 <div class="bg-slate-800 rounded-xl p-6 shadow-lg hover:border-teal-500 transition-colors duration-200 group border border-slate-700 gap-x-6 flex">
 
-            <img src="{{asset('images/Jobstar.png')}}" alt="Default Logo" class="rounded-full mr-4 w-20 h-20"/>
+    <img src="/public/images/Job-star.png" alt="Default Logo" class="rounded-full mr-4 w-10 h-9"/>
 
     <div class="flex-1 space-y-4">
 
