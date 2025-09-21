@@ -59,6 +59,7 @@
 <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @PwaHead
 </head>
 <body class="bg-gray-900 text-slate-100">
 <div class="min-h-full">
@@ -256,7 +257,7 @@
         </div>
     </footer>
 </div>
-
+@RegisterServiceWorkerScript
 </body>
 
 <script>

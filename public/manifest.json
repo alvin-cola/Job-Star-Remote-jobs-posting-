@@ -1,0 +1,16 @@
+{
+    "name": "Job Star Remote Jobs",
+    "short_name": "Job Star",
+    "background_color": "#6777ef",
+    "display": "fullscreen",
+    "description": "Find your dream job.",
+    "theme_color": "#6777ef",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

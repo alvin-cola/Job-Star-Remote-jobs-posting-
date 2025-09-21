@@ -176,9 +176,9 @@
         <div class="mx-auto max-w-4xl">
             <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Find Your Next Remote Role?</h2>
             <p class="text-lg text-slate-400 mb-8">Join thousands of others who have successfully launched their remote careers with Job Star. It's time to find the job you've been searching for.</p>
-            <button class="bg-teal-500 hover:bg-teal-600 transition-colors duration-300 text-white font-semibold py-4 px-8 rounded-full shadow-lg text-lg">
+            <x-button href="{{route('jobs.index')}}" class="bg-teal-500 hover:bg-teal-600 transition-colors duration-300 text-white font-semibold py-4 px-8 rounded-full shadow-lg text-lg">
                 Start Your Remote Job Search Now!
-            </button>
+            </x-button>
         </div>
     </section>
 
